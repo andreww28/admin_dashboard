@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
     <title>Admin Dashboard</title>
 </head>
@@ -15,43 +18,43 @@
             </div>
 
             <ul class="main-nav">
-                <li>
-                    <img src="assets/icons/home.svg" alt="home-icon">
+                <li class="active">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"  /></svg>
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <img src="assets/icons/account.svg" alt="profile-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
                     <a href="#">Profile</a>
                 </li>
                 <li>
-                    <img src="assets/icons/message.svg" alt="messages-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z" /></svg>
                     <a href="#">Messages</a>
                 </li>
                 <li>
-                    <img src="assets/icons/history.svg" alt="history-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg>
                     <a href="#">History</a>
                 </li>
                 <li>
-                    <img src="assets/icons/tasks.svg" alt="tasks-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M7,4V18H21V11H14V4H7Z" /></svg>
                     <a href="#">Tasks</a>
                 </li>
                 <li>
-                    <img src="assets/icons/account-group.svg" alt="communities-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" /></svg>
                     <a href="#">Communities</a>
                 </li>
             </ul>
 
             <ul class="bottom-nav">
                 <li>
-                    <img src="assets/icons/settings.svg" alt="settings-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg>
                     <a href="#">Settings</a>
                 </li>
                 <li>
-                    <img src="assets/icons/help-box.svg" alt="support-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg>
                     <a href="#">Support</a>
                 </li>
                 <li>
-                    <img src="assets/icons/shield.svg" alt="privacy-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z" /></svg>
                     <a href="#">Privacy</a>
                 </li>
             </ul>
@@ -87,10 +90,11 @@
         <section class="project-section">
             <h4>Your Projects</h4>
             <div class="project-container">
+                <!-- Project card 1 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <p class="project-title">Super Cool Project</p>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nisi, obcaecati inventore voluptatum consectetur placeat debitis non et laudantium fugiat eius id! Maxime necessitatibus id in modi, quo at earum?</p>
+                        <p class="project-title">Automated Testing Framework</p>
+                        <p class="project-desc">Developed a comprehensive automated testing framework using Selenium and pytest to ensure code quality and reliability for web applications. Implemented various...</p>
                     </div>
                     <div class="project-actions">
                         <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
@@ -98,11 +102,12 @@
                         <img src="assets/icons/share-outline.svg" alt="share-icon">
                     </div>
                 </div>
-
+            
+                <!-- Project card 2 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <p class="project-title">Super Cool Project</p>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nisi, obcaecati inventore voluptatum consectetur placeat debitis non et laudantium fugiat eius id! Maxime necessitatibus id in modi, quo at earum?</p>
+                        <p class="project-title">Blockchain-based Voting System</p>
+                        <p class="project-desc">Designed and implemented a secure blockchain-based voting system using Ethereum smart contracts and IPFS for decentralized storage. Ensured transparency, immutability, and tamper-resistance of the voting process while preserving voter anonymity.</p>
                     </div>
                     <div class="project-actions">
                         <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
@@ -110,11 +115,12 @@
                         <img src="assets/icons/share-outline.svg" alt="share-icon">
                     </div>
                 </div>
-
+            
+                <!-- Project card 3 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <p class="project-title">Super Cool Project</p>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nisi, obcaecati inventore voluptatum consectetur placeat debitis non et laudantium fugiat eius id! Maxime necessitatibus id in modi, quo at earum?</p>
+                        <p class="project-title">E-commerce Recommendation System</p>
+                        <p class="project-desc">Developed a sophisticated recommendation system using collaborative filtering and machine learning algorithms to provide personalized product recommendations to users based on their browsing and purchasing history.</p>
                     </div>
                     <div class="project-actions">
                         <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
@@ -122,11 +128,12 @@
                         <img src="assets/icons/share-outline.svg" alt="share-icon">
                     </div>
                 </div>
-
+            
+                <!-- Project card 4 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <p class="project-title">Super Cool Project</p>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nisi, obcaecati inventore voluptatum consectetur placeat debitis non et laudantium fugiat eius id! Maxime necessitatibus id in modi, quo at earum?</p>
+                        <p class="project-title">Mobile Application for Health Monitoring</p>
+                        <p class="project-desc">Designed and developed a mobile health monitoring application that allows users to track their fitness goals, monitor health metrics such as heart rate and calories burned, and receive personalized recommendations for diet and exercise plans.</p>
                     </div>
                     <div class="project-actions">
                         <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
@@ -134,11 +141,12 @@
                         <img src="assets/icons/share-outline.svg" alt="share-icon">
                     </div>
                 </div>
-
+            
+                <!-- Project card 5 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <p class="project-title">Super Cool Project</p>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nisi, obcaecati inventore voluptatum consectetur placeat debitis non et laudantium fugiat eius id! Maxime necessitatibus id in modi, quo at earum?</p>
+                        <p class="project-title">AI-driven Fraud Detection System</p>
+                        <p class="project-desc">Implemented an AI-powered fraud detection system for financial transactions using machine learning algorithms and anomaly detection techniques. Analyzed transaction patterns and detected suspicious activities in real-time, leading to a significant ...</p>
                     </div>
                     <div class="project-actions">
                         <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
@@ -146,11 +154,12 @@
                         <img src="assets/icons/share-outline.svg" alt="share-icon">
                     </div>
                 </div>
-
+            
+                <!-- Project card 6 -->
                 <div class="project-card">
                     <div class="project-content">
-                        <p class="project-title">Super Cool Project</p>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nisi, obcaecati inventore voluptatum consectetur placeat debitis non et laudantium fugiat eius id! Maxime necessitatibus id in modi, quo at earum?</p>
+                        <p class="project-title">Data Analytics Dashboard for Business Intelligence</p>
+                        <p class="project-desc">Designed and developed a data analytics dashboard to visualize key performance indicators and provide actionable insights for business decision-making.</p>
                     </div>
                     <div class="project-actions">
                         <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
@@ -158,7 +167,59 @@
                         <img src="assets/icons/share-outline.svg" alt="share-icon">
                     </div>
                 </div>
-            </div>
+            
+                <!-- Project card 7 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <p class="project-title">Cloud-based Document Management System</p>
+                        <p class="project-desc">Developed a cloud-based document management system for efficient storage, retrieval, and collaboration on documents. </p>
+                    </div>
+                    <div class="project-actions">
+                        <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
+                        <img src="assets/icons/eye-plus-outline.svg" alt="see-icon">
+                        <img src="assets/icons/share-outline.svg" alt="share-icon">
+                    </div>
+                </div>
+            
+                <!-- Project card 8 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <p class="project-title">Autonomous Drone Navigation System</p>
+                        <p class="project-desc">Designed and implemented an autonomous drone navigation system using computer vision and machine learning algorithms.</p>
+                    </div>
+                    <div class="project-actions">
+                        <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
+                        <img src="assets/icons/eye-plus-outline.svg" alt="see-icon">
+                        <img src="assets/icons/share-outline.svg" alt="share-icon">
+                    </div>
+                </div>
+            
+                <!-- Project card 9 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <p class="project-title">Augmented Reality Application for Education</p>
+                        <p class="project-desc">Developed an augmented reality application to enhance interactive learning experiences for students. Created immersive educational content, simulations, and virtual experiments to....</p>
+                    </div>
+                    <div class="project-actions">
+                        <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
+                        <img src="assets/icons/eye-plus-outline.svg" alt="see-icon">
+                        <img src="assets/icons/share-outline.svg" alt="share-icon">
+                    </div>
+                </div>
+            
+                <!-- Project card 10 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <p class="project-title">Data Encryption and Decryption Tool</p>
+                        <p class="project-desc">Developed a robust data encryption and decryption tool using advanced cryptographic algorithms to secure sensitive information and protect it from unauthorized access.</p>
+                    </div>
+                    <div class="project-actions">
+                        <img src="assets/icons/star-plus-outline.svg" alt="favorite-icon">
+                        <img src="assets/icons/eye-plus-outline.svg" alt="see-icon">
+                        <img src="assets/icons/share-outline.svg" alt="share-icon">
+                    </div>
+                </div>
+            </div>            
         </section>
 
         <section class="announcement-section">
@@ -166,24 +227,30 @@
             <div class="announcement-container">
                 <div class="announcement-item">
                     <p class="announcement-title">Site Maintenance</p>
-                    <p class="announcement-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse officiis, quo explicabo dignissimos optio pariatur harum incidunt veritatis commodi itaque nulla ipsam laudantium facere nisi natus quam iusto eligendi!</p>
+                    <p class="announcement-desc">Our website will undergo scheduled maintenance on Saturday, April 2nd, from 10:00 PM to 2:00 AM (UTC). During this time, access to the site may be temporarily unavailable. We apologize for any inconvenience.</p>
                 </div>
-
                 <hr>
-
                 <div class="announcement-item">
-                    <p class="announcement-title">Site Maintenance</p>
-                    <p class="announcement-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse officiis, quo explicabo dignissimos optio pariatur harum incidunt veritatis commodi itaque nulla ipsam laudantium facere nisi natus quam iusto eligendi!</p>
+                    <p class="announcement-title">New Feature: User Profile Pages</p>
+                    <p class="announcement-desc">Exciting news! We've introduced user profile pages where you can showcase your projects, connect with other users, and customize your profile. Check it out and start building your online presence today!</p>
                 </div>
-
                 <hr>
-
                 <div class="announcement-item">
-                    <p class="announcement-title">Site Maintenance</p>
-                    <p class="announcement-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse officiis, quo explicabo dignissimos optio pariatur harum incidunt veritatis commodi itaque nulla ipsam laudantium facere nisi natus quam iusto eligendi!</p>
+                    <p class="announcement-title">Upcoming Webinar: Introduction to Machine Learning</p>
+                    <p class="announcement-desc">Join us for an informative webinar on the basics of machine learning. Learn about key concepts, algorithms, and practical applications. Reserve your spot now and level up your skills!</p>
                 </div>
-
+                <hr>
+                <div class="announcement-item">
+                    <p class="announcement-title">Product Launch: Smart Home Automation System</p>
+                    <p class="announcement-desc">Introducing our latest product: a smart home automation system that allows you to control lights, thermostats, security cameras, and more from your smartphone. Experience the convenience of a connected home today!</p>
+                </div>
+                <hr>
+                <div class="announcement-item">
+                    <p class="announcement-title">Holiday Sale: Limited Time Offer</p>
+                    <p class="announcement-desc">Don't miss out on our holiday sale! Enjoy exclusive discounts on a wide range of products, including electronics, home appliances, and gadgets. Shop now and save big while stocks last!</p>
+                </div>
             </div>
+            
         </section>
         
         <section class="trending-section">
@@ -196,19 +263,19 @@
                 </div>
 
                 <div class="trending-item">
-                    <img src="assets/imgs/bird.png" alt="">
+                    <img src="assets/imgs/teddy-bear.png" alt="">
                     <p class="trending-username">@john</p>
                     <p class="trending-desc">Super Cool Project</p>
                 </div>
 
                 <div class="trending-item">
-                    <img src="assets/imgs/bird.png" alt="">
+                    <img src="assets/imgs/cat.jpg" alt="">
                     <p class="trending-username">@kendall</p>
                     <p class="trending-desc">Life Changing App</p>
                 </div>
 
                 <div class="trending-item">
-                    <img src="assets/imgs/bird.png" alt="">
+                    <img src="assets/imgs/chicken.jpg" alt="">
                     <p class="trending-username">@alex</p>
                     <p class="trending-desc">No Traffic Maker</p>
                 </div>
